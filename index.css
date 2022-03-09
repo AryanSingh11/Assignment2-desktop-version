@@ -1,0 +1,327 @@
+*{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* .whiteWrapper{
+    position: relative;
+} */
+
+nav{
+    margin-top: 1.5rem;
+}
+
+.navWrapper{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 50rem ;
+    max-height: 1.5rem;
+    padding-top: 1rem;
+
+}
+
+.navAndMenuWrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 2rem;
+    font-weight: 700;
+}
+
+.menuDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.menuDiv>*{
+    margin: 0px 10px;
+    color: gray;
+   cursor: pointer;
+   font-size: 0.8rem;
+    
+}
+
+.menuDiv>*:hover{
+   color: black;
+   font-weight: 500;
+
+}
+
+.loginDiv{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.loginDiv>*{
+    margin: 0px 10px;
+    border-radius: 2em;
+    min-width: 3rem;
+    padding: 1em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    color: gray;
+   cursor: pointer;
+   font-size: .8rem;
+
+}
+
+.loginDiv>*:hover{
+    background-color:aqua;
+}
+
+.mainDisplay{
+    justify-content: center;
+    
+}
+
+.mainDisplayWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+    padding-top: 2.2rem;
+    position: relative;
+    max-width: 50rem;
+}
+
+
+.mainText{
+    font-size: 3.6rem;
+    margin-top: 3.8rem;
+    font-weight: 700;
+    line-height: 1.1;
+    max-width: 30rem;
+    
+}
+
+.mainPara{
+    color:gray;
+    max-width: 24rem;
+    padding-top: .6rem;
+}
+.getStartedButton{
+    min-width: 9rem;
+    font-weight: 100;
+    color: white;
+    background-color:aqua;
+    outline: none !important;
+    margin-top: 1em;
+    padding: .4rem;
+    border-radius: 3rem;
+   cursor: pointer;
+   border-color: aqua;
+   box-shadow: none;
+
+
+}
+
+.imageDiv{
+    position: absolute;    
+    right: -13rem;
+    top: 3rem;
+    overflow-x: hidden;
+}
+
+.inputSection{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7.5rem;
+ 
+}
+
+.inputWrapper{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 50rem;
+    background-image: url(./images/bg-shorten-desktop.svg);
+   height: 7.7rem;
+   background-color: indigo;
+   border-radius: .3rem;
+  
+   
+}
+
+.inputTab{
+    padding: .5rem;
+    min-width: 33rem;
+   border-radius: .3rem;
+   margin-right: .3rem;
+   padding-left: 1rem;
+    
+}
+
+.inputTab[type=text]:focus {
+    border: 1rem solid red !important; 
+  }
+
+.inputTab::placeholder{
+    color: red;
+}
+
+
+.shortenButton{
+    padding: .5rem;
+    min-width: 9.5rem;
+   border-radius: .3rem;
+   margin-left: .5rem;
+   font-weight: 100;
+   color: white;
+   background-color:aqua;
+   outline: none;
+   cursor: pointer;
+}
+
+.anaLyticsDiv{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.analyticsHeading{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.advancedPara{
+    max-width: 30rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+footer{
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    min-width: 100vw;
+    max-width: 900px;
+    min-height: 15rem;
+
+}
+
+.footerWrapper{
+    text-align: top;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerDiv{
+    display: flex;
+    flex-direction: row;
+    max-width: 50rem;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-left: 7rem;
+    
+
+}
+
+.singleFooterDiv>*{
+    display: inline-block;
+    margin-top: 3.5rem;
+    padding-left: 1rem;
+    padding-right: 3rem;
+   
+}
+
+.footerDivHeader{
+    color: white;
+    font-size: .8rem;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+
+.footerDivHeader:hover{
+    color: aqua;
+  
+
+}
+
+.footerDivPara>*{
+    color: white;
+    font-size: .7rem;
+    margin-top: 8px;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.footerDivPara>*:hover{
+ color: aqua;
+}
+
+.shortlyFooterHead{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 9rem;
+
+}
+
+.footerIcons{
+    display: flex;
+    flex-direction: row;
+}
+
+.footerIcons>*{
+    min-width: 1rem;
+    min-height: 1rem;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.fbIcon{
+    background-image: url(./images/icon-facebook.svg);
+  
+}
+
+.tIcon{
+    background-image: url(./images/icon-twitter.svg);
+ 
+
+}
+
+.pIcon{
+    background-image: url(./images/icon-pinterest.svg);
+    
+}
+
+.instaIcon{
+    background-image: url(./images/icon-instagram.svg);
+   
+
+}
